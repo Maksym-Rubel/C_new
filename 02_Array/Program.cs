@@ -35,7 +35,7 @@
         Console.WriteLine();
     }
 
-
+    
     static void Fill(int[] arr, int min = 0 , int max = 50)
     {
         Random rnd = new Random();
