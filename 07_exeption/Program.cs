@@ -84,7 +84,7 @@ internal class Program
 
         try
         {
-            Acount acount = new Acount("rubelmaksum2404@gmail.com");
+            Acount acount = new Acount("rubelmaksum2404@gmail.com","maksum1");
             Console.WriteLine($"All kruto");
         }
         catch (ArgumentException ex)
@@ -94,7 +94,7 @@ internal class Program
         }
         try
         {
-            Acount acount = new Acount("!rubelmaksum2404@gmail.com");
+            Acount acount = new Acount("!rubelmaksum2404@gmail.com", "maksum1");
         }
         catch (ArgumentException ex)
         {
@@ -103,7 +103,7 @@ internal class Program
         }
         try
         {
-            Acount acount = new Acount("dru");
+            Acount acount = new Acount("dru", "maksum1");
         }
         catch (ArgumentException ex)
         {
@@ -112,14 +112,33 @@ internal class Program
         }
         try
         {
-            Acount acount = new Acount("wdwdwad");
+            Acount acount = new Acount("wdwdwad", "maksum1");
         }
         catch (ArgumentException ex)
         {
 
             Console.WriteLine($"Error: {ex.Message}");
         }
+        try
+        {
+            Acount acount = new Acount("rubelmaksum2404@gmail.com", "maksum");
+            Console.WriteLine($"All kruto");
+        }
+        catch (ArgumentException ex)
+        {
 
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+        try
+        {
+            Acount acount = new Acount("rubelmaksum2404@gmail.com", "maksumm");
+            Console.WriteLine($"All kruto");
+        }
+        catch (ArgumentException ex)
+        {
+
+            Console.WriteLine($"Error: {ex.Message}");
+        }
 
     }
 }

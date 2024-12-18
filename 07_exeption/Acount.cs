@@ -21,6 +21,15 @@ namespace _07_exeption
             }
             return true;
         }
+        private bool PassIsValid(string value)
+        {
+            foreach (char i in value)
+            {
+                if (char.IsDigit(i))
+                    return true;
+            }
+            return false;
+        }
         public string Email
         {
             get => email;
@@ -44,9 +53,28 @@ namespace _07_exeption
                 email = value;
             }
         }
-        public Acount(string email)
+        public string Password
+        {
+            get => password;
+            set
+            {
+                if (value.Length <= 6)
+                {
+                    throw new ArgumentException("Password must be > 6");
+                }
+                if(!PassIsValid(value))
+                {
+                    throw new ArgumentException("Password must have 1 number");
+                }
+
+
+                password = value;
+            }
+        }
+        public Acount(string email, string password)
         {
             Email = email;
+            Password = password;
         }
     }
 }
