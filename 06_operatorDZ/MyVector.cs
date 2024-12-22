@@ -86,5 +86,22 @@ namespace _06_operatorDZ
         {
             return a.xnum == 0 || a.ynum == 0;
         }
+        public static explicit operator double(MyVector vector)
+        {
+            return vector.Length;
+        }
+        public static implicit operator MyVector(double value)
+        {
+            return new MyVector(value, 0);
+        }
+        public double this[int index]
+        {
+            get
+            {
+                if (index == 0) return xnum;  
+                else if (index == 1) return ynum;
+                else throw new IndexOutOfRangeException("Index must be 0 or 1.");
+            }
+        }
     }
 }
