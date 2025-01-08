@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_exeption", "07_exeption\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_exception_dz", "07_exception_dz\07_exception_dz.csproj", "{0D8AE00D-E2C9-453A-B497-950D45414301}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Inheritance", "08_Inheritance\08_Inheritance.csproj", "{CBB747AA-0A37-46EB-AF1F-0AE0AE77DE95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Inheritance", "08_Inheritance\08_Inheritance.csproj", "{CBB747AA-0A37-46EB-AF1F-0AE0AE77DE95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_interclass", "08_interclass\08_interclass.csproj", "{B27CC116-FB71-4CD1-A2CE-B612567E9ADC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_interclass", "08_interclass\08_interclass.csproj", "{B27CC116-FB71-4CD1-A2CE-B612567E9ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_interDz", "08_interDz\08_interDz.csproj", "{213CCC9B-302C-4009-8616-09EBEE166C6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{B27CC116-FB71-4CD1-A2CE-B612567E9ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B27CC116-FB71-4CD1-A2CE-B612567E9ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B27CC116-FB71-4CD1-A2CE-B612567E9ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213CCC9B-302C-4009-8616-09EBEE166C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213CCC9B-302C-4009-8616-09EBEE166C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213CCC9B-302C-4009-8616-09EBEE166C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213CCC9B-302C-4009-8616-09EBEE166C6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
