@@ -11,5 +11,18 @@ internal class Program
 
         arr.Show();
         arr.Show("First");
+
+
+
+        Console.WriteLine(arr.Max());
+        Console.WriteLine(arr.Min());
+        Console.WriteLine(arr.Avg());
+        Console.WriteLine(arr.Search(7));
+
+
+    
+
+
+
     }
 }
