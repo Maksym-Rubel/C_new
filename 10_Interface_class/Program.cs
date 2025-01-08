@@ -20,7 +20,19 @@ internal class Program
         Console.WriteLine(arr.Search(7));
 
 
-    
+
+        Console.WriteLine(arr.Less(3));
+        Console.WriteLine(arr.Greater(3));
+
+        arr.ShowEven();
+        arr.ShowOdd();
+
+
+        Console.WriteLine(arr.CountDistinct());
+        Console.WriteLine(arr.EqualToValue(3));
+
+
+
 
 
 
