@@ -35,13 +35,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_interclass", "08_intercl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_interDz", "08_interDz\08_interDz.csproj", "{213CCC9B-302C-4009-8616-09EBEE166C6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Interface", "09_Interface\09_Interface.csproj", "{E234CD30-53F5-4EE8-A639-335DE6D0D5C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Interface", "09_Interface\09_Interface.csproj", "{E234CD30-53F5-4EE8-A639-335DE6D0D5C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_IClonable", "10_IClonable\10_IClonable.csproj", "{57F0C226-722D-4B25-A046-62AE5C373192}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_IClonable", "10_IClonable\10_IClonable.csproj", "{57F0C226-722D-4B25-A046-62AE5C373192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEmunereble", "IEmunereble\IEmunereble.csproj", "{7F8CCAA6-91F6-4BB0-AC58-F571320B0889}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEmunereble", "IEmunereble\IEmunereble.csproj", "{7F8CCAA6-91F6-4BB0-AC58-F571320B0889}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Interface_class", "10_Interface_class\10_Interface_class.csproj", "{6F7E9B45-BB68-4034-9C73-5715DB18D685}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Interface_class", "10_Interface_class\10_Interface_class.csproj", "{6F7E9B45-BB68-4034-9C73-5715DB18D685}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Enum_Demo", "11_Enum_Demo\11_Enum_Demo.csproj", "{F2ADB31E-4602-4873-8DD2-F4090F096D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Structure_demo", "12_Structure_demo\12_Structure_demo.csproj", "{913F7176-BE80-4120-8DE7-8DCACB7081AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_structure", "13_structure\13_structure.csproj", "{D5783888-CB60-4296-98F5-A19BCAC9A9D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +135,18 @@ Global
 		{6F7E9B45-BB68-4034-9C73-5715DB18D685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F7E9B45-BB68-4034-9C73-5715DB18D685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F7E9B45-BB68-4034-9C73-5715DB18D685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2ADB31E-4602-4873-8DD2-F4090F096D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2ADB31E-4602-4873-8DD2-F4090F096D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2ADB31E-4602-4873-8DD2-F4090F096D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2ADB31E-4602-4873-8DD2-F4090F096D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{913F7176-BE80-4120-8DE7-8DCACB7081AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913F7176-BE80-4120-8DE7-8DCACB7081AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{913F7176-BE80-4120-8DE7-8DCACB7081AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913F7176-BE80-4120-8DE7-8DCACB7081AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5783888-CB60-4296-98F5-A19BCAC9A9D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5783888-CB60-4296-98F5-A19BCAC9A9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5783888-CB60-4296-98F5-A19BCAC9A9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5783888-CB60-4296-98F5-A19BCAC9A9D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
