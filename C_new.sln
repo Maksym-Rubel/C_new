@@ -45,9 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Interface_class", "10_In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Enum_Demo", "11_Enum_Demo\11_Enum_Demo.csproj", "{F2ADB31E-4602-4873-8DD2-F4090F096D02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Structure_demo", "12_Structure_demo\12_Structure_demo.csproj", "{913F7176-BE80-4120-8DE7-8DCACB7081AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_Structure_demo", "12_Structure_demo\12_Structure_demo.csproj", "{913F7176-BE80-4120-8DE7-8DCACB7081AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_structure", "13_structure\13_structure.csproj", "{D5783888-CB60-4296-98F5-A19BCAC9A9D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_structure", "13_structure\13_structure.csproj", "{D5783888-CB60-4296-98F5-A19BCAC9A9D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Structure_dz", "13_Structure_dz\13_Structure_dz.csproj", "{D651DE5F-5682-4270-9BE9-64C5F32DB354}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{D5783888-CB60-4296-98F5-A19BCAC9A9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5783888-CB60-4296-98F5-A19BCAC9A9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5783888-CB60-4296-98F5-A19BCAC9A9D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D651DE5F-5682-4270-9BE9-64C5F32DB354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D651DE5F-5682-4270-9BE9-64C5F32DB354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D651DE5F-5682-4270-9BE9-64C5F32DB354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D651DE5F-5682-4270-9BE9-64C5F32DB354}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
