@@ -26,11 +26,11 @@ namespace _16_Events
         //}
         public void AddPosition(string description)
         {
-            MyArgs args = new MyArgs();
+            MyArgs args = new MyArgs()
             {
-                Description = description;
-                CompanyName = Name;
-                Date = DateTime.Now;
+                Description = description,
+                CompanyName = Name,
+                Date = DateTime.Now,
             };
             NewPosition?.Invoke(this, args);
         }

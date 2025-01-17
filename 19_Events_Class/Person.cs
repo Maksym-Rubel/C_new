@@ -10,8 +10,15 @@ namespace _19_Events_Class
     public class PropertyEvent : EventArgs
     {
         public string PropertyName { get; set; }
+
+
     }
+
+
     public delegate void PropertyEventHandler(object sender, PropertyEvent e);
+
+
+
     interface IPropertyChanged
     {
         event PropertyEventHandler PropertyChanged;
