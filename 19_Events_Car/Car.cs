@@ -6,20 +6,33 @@ using System.Threading.Tasks;
 
 namespace _19_Events_Car
 {
-    internal interface Car
+    abstract class Car
     {
-        string Name { get; }
-        string Color { get; }
+        public string Name { get; set; }
+        public int Speed { get; set; }
+        public int Position { get; set; }
+        public event Action<string> Finished;
 
-        int Speed {  get; }
-        int Distancecovered { get; }
+        protected Random random = new Random();
 
-        void StartRace();
+        public Car(string name)
+        {
+            Name = name;
+            Position = 0;
+        }
 
-        void UpdateProgress();
-        void Print();
+        public void Drive()
+        {
+            Speed = random.Next(5, 15);
+            Position += Speed;
+            Console.WriteLine($"{Name} Speed : {Speed}, Position: {Position}");
+           
 
-
-        void ride();
+            if (Position >= 100)
+            {
+                Finished?.Invoke(Name);
+            }
+        }
     }
+
 }

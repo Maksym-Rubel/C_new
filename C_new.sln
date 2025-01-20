@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_Dictinary", "26_Dictinar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27_IDictianari_Class", "27_IDictianari_Class\27_IDictianari_Class.csproj", "{2E1C5BF4-4D11-4C2C-A1AB-D20236185B65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28_Dz", "28_Dz\28_Dz.csproj", "{05C3BA91-F2B5-4EEB-AB27-85E3D772CB79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{2E1C5BF4-4D11-4C2C-A1AB-D20236185B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E1C5BF4-4D11-4C2C-A1AB-D20236185B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E1C5BF4-4D11-4C2C-A1AB-D20236185B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C3BA91-F2B5-4EEB-AB27-85E3D772CB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C3BA91-F2B5-4EEB-AB27-85E3D772CB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C3BA91-F2B5-4EEB-AB27-85E3D772CB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C3BA91-F2B5-4EEB-AB27-85E3D772CB79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

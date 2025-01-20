@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace _19_Events_Car
 {
-    internal class Cars : Car
+    internal class Truck : Car
     {
-        public Cars(string name) : base(name) { }
-
+        public Truck(string name) : base(name) { }
     }
 }
