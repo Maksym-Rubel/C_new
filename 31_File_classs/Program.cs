@@ -71,8 +71,41 @@ internal class Program
             sw.WriteLine(line);
          
         }
-        SearchWord("World", fstr);
-        SearchWordS("Hello", fstr);
-        SearchWordEs("olleH",fstr);
+ 
+
+        int choice = -1;
+        while (choice != 0)
+        {
+
+            Console.WriteLine("Enter func");
+            Console.WriteLine("1. Search index");
+            Console.WriteLine("2. Search count");
+            Console.WriteLine("3. Search count reverse");
+            choice = int.Parse(Console.ReadLine());
+            if (choice == 1)
+            {
+                Console.Write("Enter word --> ");
+                string choice1 = Console.ReadLine();
+                SearchWord(choice1, fstr);
+            }
+            else if (choice == 2)
+            {
+                Console.Write("Enter word --> ");
+                string choice1 = Console.ReadLine();
+                SearchWordS(choice1, fstr);
+            }
+            else if (choice == 3)
+            {
+                Console.Write("Enter word --> ");
+                string choice1 = Console.ReadLine();
+                SearchWordEs(choice1, fstr);
+            }
+            else if (choice == 0)
+            {
+                break;
+            }
+        }
+       
+
     }
 }
