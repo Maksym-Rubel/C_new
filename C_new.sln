@@ -75,13 +75,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23_ArrayClass", "23_ArrayCl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24_LIst_dz", "24_LIst_dz\24_LIst_dz.csproj", "{A91FDA7B-8725-46EB-B9F1-EF2A71B65F56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25_sortedlst", "25_sortedlst\25_sortedlst.csproj", "{5EB7226A-806B-4CE9-8052-A4A0CAAC5C4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25_sortedlst", "25_sortedlst\25_sortedlst.csproj", "{5EB7226A-806B-4CE9-8052-A4A0CAAC5C4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_Dictinary", "26_Dictinary\26_Dictinary.csproj", "{753F6C5D-E5F1-44EB-A566-6F1CFAD34251}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_Dictinary", "26_Dictinary\26_Dictinary.csproj", "{753F6C5D-E5F1-44EB-A566-6F1CFAD34251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27_IDictianari_Class", "27_IDictianari_Class\27_IDictianari_Class.csproj", "{2E1C5BF4-4D11-4C2C-A1AB-D20236185B65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27_IDictianari_Class", "27_IDictianari_Class\27_IDictianari_Class.csproj", "{2E1C5BF4-4D11-4C2C-A1AB-D20236185B65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28_Dz", "28_Dz\28_Dz.csproj", "{05C3BA91-F2B5-4EEB-AB27-85E3D772CB79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28_Dz", "28_Dz\28_Dz.csproj", "{05C3BA91-F2B5-4EEB-AB27-85E3D772CB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_File", "29_File\29_File.csproj", "{60AE945C-1B6B-493B-8669-9EE635E78DE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30_Binary_Write_Reader", "30_Binary_Write_Reader\30_Binary_Write_Reader.csproj", "{A95F891E-3DDB-4571-8EEA-3CE305F1C408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31_Stream_Writer_Reader", "31_Stream_Writer_Reader\31_Stream_Writer_Reader.csproj", "{DC72EA7C-6130-4B21-8A29-2DBDCD5EDCED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31_File_classs", "31_File_classs\31_File_classs.csproj", "{A6566B39-3CF8-408F-8F1E-B03D36E15DDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +257,22 @@ Global
 		{05C3BA91-F2B5-4EEB-AB27-85E3D772CB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05C3BA91-F2B5-4EEB-AB27-85E3D772CB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05C3BA91-F2B5-4EEB-AB27-85E3D772CB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60AE945C-1B6B-493B-8669-9EE635E78DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AE945C-1B6B-493B-8669-9EE635E78DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AE945C-1B6B-493B-8669-9EE635E78DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AE945C-1B6B-493B-8669-9EE635E78DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A95F891E-3DDB-4571-8EEA-3CE305F1C408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95F891E-3DDB-4571-8EEA-3CE305F1C408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95F891E-3DDB-4571-8EEA-3CE305F1C408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95F891E-3DDB-4571-8EEA-3CE305F1C408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC72EA7C-6130-4B21-8A29-2DBDCD5EDCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC72EA7C-6130-4B21-8A29-2DBDCD5EDCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC72EA7C-6130-4B21-8A29-2DBDCD5EDCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC72EA7C-6130-4B21-8A29-2DBDCD5EDCED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6566B39-3CF8-408F-8F1E-B03D36E15DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6566B39-3CF8-408F-8F1E-B03D36E15DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6566B39-3CF8-408F-8F1E-B03D36E15DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6566B39-3CF8-408F-8F1E-B03D36E15DDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
