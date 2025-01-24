@@ -37,6 +37,11 @@ internal class Program
         mas.Print();
 
 
+        string fname_1 = "../../../MasAlbum.json";
+
+        mas.SerializeAlbum1(fname_1, mas);
+
+
 
     }
 }
