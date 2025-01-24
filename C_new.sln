@@ -83,13 +83,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27_IDictianari_Class", "27_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28_Dz", "28_Dz\28_Dz.csproj", "{05C3BA91-F2B5-4EEB-AB27-85E3D772CB79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_File", "29_File\29_File.csproj", "{60AE945C-1B6B-493B-8669-9EE635E78DE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29_File", "29_File\29_File.csproj", "{60AE945C-1B6B-493B-8669-9EE635E78DE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30_Binary_Write_Reader", "30_Binary_Write_Reader\30_Binary_Write_Reader.csproj", "{A95F891E-3DDB-4571-8EEA-3CE305F1C408}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30_Binary_Write_Reader", "30_Binary_Write_Reader\30_Binary_Write_Reader.csproj", "{A95F891E-3DDB-4571-8EEA-3CE305F1C408}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31_Stream_Writer_Reader", "31_Stream_Writer_Reader\31_Stream_Writer_Reader.csproj", "{DC72EA7C-6130-4B21-8A29-2DBDCD5EDCED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31_Stream_Writer_Reader", "31_Stream_Writer_Reader\31_Stream_Writer_Reader.csproj", "{DC72EA7C-6130-4B21-8A29-2DBDCD5EDCED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31_File_classs", "31_File_classs\31_File_classs.csproj", "{A6566B39-3CF8-408F-8F1E-B03D36E15DDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31_File_classs", "31_File_classs\31_File_classs.csproj", "{A6566B39-3CF8-408F-8F1E-B03D36E15DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30_Files_dz", "30_Files_dz\30_Files_dz.csproj", "{DA760947-C894-4CFA-BDD1-709D12EAE20B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +275,10 @@ Global
 		{A6566B39-3CF8-408F-8F1E-B03D36E15DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6566B39-3CF8-408F-8F1E-B03D36E15DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6566B39-3CF8-408F-8F1E-B03D36E15DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA760947-C894-4CFA-BDD1-709D12EAE20B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA760947-C894-4CFA-BDD1-709D12EAE20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA760947-C894-4CFA-BDD1-709D12EAE20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA760947-C894-4CFA-BDD1-709D12EAE20B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
