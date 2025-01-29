@@ -17,7 +17,7 @@ internal class Program
     }
     static public void DeleteDIrectory(string folderName)
     {
-        if (!Directory.Exists(folderName))
+        if (Directory.Exists(folderName))
         {
             Directory.Delete(folderName,true);
             Console.WriteLine($"Folder '{folderName}' deleted");
