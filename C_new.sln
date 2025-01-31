@@ -109,15 +109,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "37_class_File", "37_class_F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "37_File_homeword", "37_File_homeword\37_File_homeword.csproj", "{483754A5-2F1B-4046-AD32-CC96BC2967BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38_Linq", "38_Linq\38_Linq.csproj", "{D5BC33E7-8751-4811-8A01-F30BA0BFB451}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "38_Linq", "38_Linq\38_Linq.csproj", "{D5BC33E7-8751-4811-8A01-F30BA0BFB451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39_Linq", "39_Linq\39_Linq.csproj", "{247F1C6D-2909-46B7-ACA8-858185AC5D68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "39_Linq", "39_Linq\39_Linq.csproj", "{247F1C6D-2909-46B7-ACA8-858185AC5D68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39_class_Linq", "39_class_Linq\39_class_Linq.csproj", "{A4B99F95-229C-4582-BD2F-2F36B49C3D3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "39_class_Linq", "39_class_Linq\39_class_Linq.csproj", "{A4B99F95-229C-4582-BD2F-2F36B49C3D3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "40_homework", "40_homework\40_homework.csproj", "{15475715-14D4-4D39-8013-8D83B0484B88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "40_homework", "40_homework\40_homework.csproj", "{15475715-14D4-4D39-8013-8D83B0484B88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "40_homw", "40_homw\40_homw.csproj", "{6790A628-F997-4A6A-9723-5374CEC4971F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "40_homw", "40_homw\40_homw.csproj", "{6790A628-F997-4A6A-9723-5374CEC4971F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "41_Regex", "41_Regex\41_Regex.csproj", "{86992D49-7189-43FC-8A39-2765F8C94B39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "42_Classasdas", "42_Classasdas\42_Classasdas.csproj", "{7DE93455-3FBD-4305-8171-802C3A56BB54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -357,6 +361,14 @@ Global
 		{6790A628-F997-4A6A-9723-5374CEC4971F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6790A628-F997-4A6A-9723-5374CEC4971F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6790A628-F997-4A6A-9723-5374CEC4971F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86992D49-7189-43FC-8A39-2765F8C94B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86992D49-7189-43FC-8A39-2765F8C94B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86992D49-7189-43FC-8A39-2765F8C94B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86992D49-7189-43FC-8A39-2765F8C94B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE93455-3FBD-4305-8171-802C3A56BB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE93455-3FBD-4305-8171-802C3A56BB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE93455-3FBD-4305-8171-802C3A56BB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE93455-3FBD-4305-8171-802C3A56BB54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
