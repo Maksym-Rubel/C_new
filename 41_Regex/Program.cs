@@ -80,10 +80,10 @@ internal class Program
         //Console.WriteLine(input);
 
         //Console.WriteLine(output);
-        //+38(0$1}-$2-$3-$4
-        //string.Format("0:+38(9##)-##-##-###"
+
+
         var text = "bla bla 145323223 arggs jjhdj aalert 484345435 Bye!";
-        var output = Regex.Replace(text, @"(\d{9}", m => string.Format("{0:+38(9##)-##-##-###}",Convert.ToInt32(m.Value));
+        var output = Regex.Replace(text, @"(\d{2})(\d{2})(\d{2})(\d{3})", "+38(0$1}-$2-$3-$4");
         Console.WriteLine(text);
 
         Console.WriteLine(output);
