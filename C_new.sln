@@ -123,7 +123,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "41_Regex", "41_Regex\41_Reg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "42_Classasdas", "42_Classasdas\42_Classasdas.csproj", "{7DE93455-3FBD-4305-8171-802C3A56BB54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "43_homework", "43_homework\43_homework.csproj", "{FF0C2050-400A-406F-8277-75919CACEEC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "43_homework", "43_homework\43_homework.csproj", "{FF0C2050-400A-406F-8277-75919CACEEC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "45_Exam", "45_Exam\45_Exam.csproj", "{0061EDB9-AE8E-442B-A813-FA9DC96F40D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -375,6 +377,10 @@ Global
 		{FF0C2050-400A-406F-8277-75919CACEEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF0C2050-400A-406F-8277-75919CACEEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF0C2050-400A-406F-8277-75919CACEEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0061EDB9-AE8E-442B-A813-FA9DC96F40D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0061EDB9-AE8E-442B-A813-FA9DC96F40D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0061EDB9-AE8E-442B-A813-FA9DC96F40D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0061EDB9-AE8E-442B-A813-FA9DC96F40D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
