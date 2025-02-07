@@ -29,7 +29,7 @@ namespace _45_Exam
         {
             if (string.IsNullOrWhiteSpace(textBox1.Text) || !Directory.Exists(textBox1.Text))
             {
-                MessageBox.Show("Invalid directory path.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("\r\nНедійсний шлях до каталогу.", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             listBox1.Items.Clear();
@@ -107,7 +107,7 @@ namespace _45_Exam
         {
             if (string.IsNullOrWhiteSpace(textBox1.Text) || !Directory.Exists(textBox1.Text))
             {
-                MessageBox.Show("Invalid directory path.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("\r\nНедійсний шлях до каталогу.", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             if (textBox1.Text[textBox1.Text.Length - 1] == '\\') 
@@ -286,7 +286,7 @@ namespace _45_Exam
         {
             if (string.IsNullOrWhiteSpace(textBox1.Text) || !Directory.Exists(textBox1.Text))
             {
-                MessageBox.Show("Invalid directory path.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("\r\nНедійсний шлях до каталогу.", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             listBox1.Items.Clear();
@@ -323,9 +323,9 @@ namespace _45_Exam
                     create.Visible = false;
                  
                     keyEvent.SuppressKeyPress = true;
-                    create.Text += ".txt";
-                    string targetPath = Path.Combine(textBox1.Text, create.Text);
-                    MessageBox.Show(targetPath);
+                    string text = create.Text += ".txt";
+                    string targetPath = Path.Combine(textBox1.Text, text);
+                  
                     File.Create(targetPath).Dispose();
              
                     listBox1.Items.Clear();
